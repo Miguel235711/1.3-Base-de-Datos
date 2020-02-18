@@ -7,12 +7,13 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Act 1.3 in C++" prefix_auto="1" extension_auto="1" />
+				<Option output="bin/Debug/Act 1" prefix_auto="1" extension_auto="1" />
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 		</Build>
@@ -20,7 +21,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/grupo.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/grupo.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
