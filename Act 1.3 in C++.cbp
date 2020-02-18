@@ -25,8 +25,10 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/grupo.cpp" />
 		<Unit filename="include/materia.h" />
+		<Unit filename="include/profesor.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/materia.cpp" />
+		<Unit filename="src/profesor.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,10 +1,19 @@
 #include <iostream>
+#include "include/profesor.h"
+#include "include/materia.h"
 #include "include/grupo.h"
 
 using namespace std;
 
 int main()
 {
+    materia laMateria;
+    laMateria.loadFile();
+    //laMateria.mostrarMaterias();
+    //laMateria.borrarMateria("1");
+    //laMateria.agregarMateria();
+    //laMateria.editarMateria("1");
+    return 0;
     grupo miGrupo;
     miGrupo.loadFile();
     int opc=0;
@@ -31,3 +40,5 @@ int main()
         miGrupo.editlist();
     }
 }
+
+
