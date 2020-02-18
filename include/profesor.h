@@ -1,26 +1,36 @@
-#ifndef PROFESOR_H
-#define PROFESOR_H
-#include <iostream>
-#include <fstream>
-using namespace std ;
+#ifndef profesor_h
+#define profesor_h
 
+#include<iostream>
+#include<fstream>
+#include<map>
+
+using namespace std;
 
 class profesor
 {
     public:
-        profesor();
-        void saludar();
-        void mostrar_nombres ();
-        void agregar_nombres ();
-        virtual ~profesor();
+    profesor();
+    profesor(string nominaProfesor,string nombre,string CIP);
+
+    void printlist();
+    void addlist();
+    void deletelist();
+    void editlist();
+    void loadFile();
+
+    virtual ~profesor();
 
     protected:
 
     private:
-        int nomina,CIP;
-        string nombre_profesor;
         ifstream infile;
         ofstream outfile;
+        map<string,profesor*>profesores;
+        string nombre,nominaProfesor,CIP;
+
+        void writeFile();
+        void overwriteProfesor();
 };
 
-#endif // PROFESOR_H
+#endif // GRUPO_H

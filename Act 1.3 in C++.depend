@@ -11,3 +11,33 @@
 1582008323 source:c:\users\jesus\onedrive - instituto tecnologico y de estudios superiores de monterrey\trabajos universidad\cuarto semestre\bases de datos\basest1\1.3-base-de-datos\src\grupo.cpp
 	"grupo.h"
 
+1582012197 source:c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\main.cpp
+	<iostream>
+	"include/profesor.h"
+	"include/materia.h"
+	"include/grupo.h"
+
+1582014477 c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\include\profesor.h
+	<iostream>
+	<fstream>
+	<map>
+
+1582011937 c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\include\materia.h
+	<iostream>
+	<vector>
+	<fstream>
+	<string.h>
+	<map>
+	<utility>
+
+1582012197 c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\include\grupo.h
+	<iostream>
+	<fstream>
+	<map>
+
+1582012197 source:c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\src\grupo.cpp
+	"grupo.h"
+
+1582011937 source:c:\users\mig1-\onedrive - instituto tecnologico y de estudios superiores de monterrey\documents\school\itesm\4° semester\data bases\actividad 1.3\act 1.3 in c++\src\materia.cpp
+	"materia.h"
+
